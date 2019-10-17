@@ -16,5 +16,5 @@ Some papers and models for 2D and 3D human pose estimation.
 
 #### 3D human pose estimation
 
-- [Cross View Fusion for 3D Human Pose Estimation, IICV2019](http://arxiv.org/abs/1909.01203) ,  [read more](3D/Cross_View_Fusion.md)
+- [Cross View Fusion for 3D Human Pose Estimation, IICV2019](http://arxiv.org/abs/1909.01203) ,  [[read more](3D/Cross_View_Fusion.md)]
 
