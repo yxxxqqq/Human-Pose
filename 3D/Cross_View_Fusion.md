@@ -13,6 +13,8 @@
 
 - 将多个视角下的特征进行融合，将空间中点p在平面一上的特征，与对应平面二极线上的特征进行融合。因为当空间点的深度未知，但是已知它在平面一的投影点位置，它在平面二上的投影点可能在极线上的任何一点。
 
+  <img src="images/CVF_fusion.png" alt="feature fusion" style="zoom:80%;" />
+
 - 使用递归图结构模型，从多视角下的2D姿态估计出3D姿态。针对三维空间离散产生的量化误差，使用递归逐步细化划分空间的方法，可以产生高精确度的位置，并且运算量小。将原始空间划分为N×N×N，细化时继续将关键点周围空间划分为2x2x2。
 
   <img src="images/discretization.png" alt="discretization" style="zoom: 80%;" />
