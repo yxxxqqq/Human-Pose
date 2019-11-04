@@ -25,7 +25,7 @@ Some papers and models for 2D and 3D human pose estimation.
 - [3D human pose estimation in video with temporal convolutions and semi-supervised training, CVPR2019](http://arxiv.org/abs/1811.11742), [[code](https://github.com/facebookresearch/VideoPose3D)]
 - [A simple yet effective baseline for 3d human pose estimation, ICCV2017], [[code](https://github.com/una-dinosauria/3d-pose-baseline)]
 - [RepNet: Weakly Supervised Training of an Adversarial Reprojection Network for 3D Human Pose Estimation, CVPR2019](http://arxiv.org/abs/1902.09868)
-- [Generalizing Monocular 3D Human Pose Estimation in the Wild, 2019](http://arxiv.org/abs/1904.05512), [[code](https://github.com/llcshappy/Monocular-3D-Human-Pose)]
+- [Generalizing Monocular 3D Human Pose Estimation in the Wild, 2019](http://arxiv.org/abs/1904.05512), [[code](https://github.com/llcshappy/Monocular-3D-Human-Pose)], [[read more](3D/Monocular_3D_Wild.md)]
 - [In the Wild Human Pose Estimation Using Explicit 2D Features and Intermediate 3D Representations, CVPR2019](http://arxiv.org/abs/1904.03289)
 - [Camera Distance-aware Top-down Approach for 3D Multi-person Pose Estimation from a Single RGB Image, ICCV2019](http://arxiv.org/abs/1907.11346), [[code](https://github.com/mks0601/3DMPPE_ROOTNET_RELEASE)], [[read more](3D/Distance-aware_Top-down.md)]
 - [Generating Multiple Hypotheses for 3D Human Pose Estimation with Mixture Density Network, CVPR2019](http://arxiv.org/abs/1904.05547), [[code](https://github.com/chaneyddtt/Generating-Multiple-Hypotheses-for-3D-Human-Pose-Estimation-with-Mixture-Density-Network)]
