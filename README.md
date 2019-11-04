@@ -43,3 +43,5 @@ Some papers and models for 2D and 3D human pose estimation.
 
 #### Object Detection
 
+- [Mask R-CNN](https://arxiv.org/abs/1703.06870v3), [[code](https://github.com/facebookresearch/Detectron)]
+
