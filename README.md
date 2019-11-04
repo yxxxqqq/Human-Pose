@@ -2,7 +2,7 @@
 
 Some papers and models for 2D and 3D human pose estimation.
 
-[数据集和评价标准](human-pose-estimation/Datasets_Evaluation.md)
+[人体姿态数据集和评价标准](human-pose-estimation/Datasets_Evaluation.md)
 
 ##### 2D human pose estimation
 
