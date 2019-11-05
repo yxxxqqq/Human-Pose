@@ -37,7 +37,7 @@
 
 - D. Mehta, O. Sotnychenko, F. Mueller, W. Xu, S. Sridhar, G. Pons-Moll, and C. Theobalt. Single-shot multi-person 3d pose estimation from monocular rgb. In 3DV, 2018.  数据集
 - G. Rogez, P. Weinzaepfel, and C. Schmid. Lcr-net: Localization-classification-regression for human pose. In CVPR, 2017.  
-- X. Sun, B. Xiao, F. Wei, S. Liang, and Y. Wei. Integral hu- man pose regression. In ECCV, 2018.  文中的PoseNet原型。
+- X. Sun, B. Xiao, F. Wei, S. Liang, and Y. Wei. Integral human pose regression. In ECCV, 2018.  文中的PoseNet原型。
 - C. Ionescu, D. Papava, V. Olaru, and C. Sminchisescu. Hu- man3.6m: Large scale datasets and predictive methods for 3d human sensing in natural environments. TPAMI, 2014. 数据集
 - D. Mehta, H. Rhodin, D. Casas, P. Fua, O. Sotnychenko, W. Xu, and C. Theobalt. Monocular 3d human pose esti- mation in the wild using improved cnn supervision. In 3DV, 2017. 数据集
 - X. Sun, B. Xiao, F. Wei, S. Liang, and Y. Wei. Integral hu- man pose regression. In ECCV, 2018. 
