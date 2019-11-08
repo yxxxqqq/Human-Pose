@@ -24,11 +24,15 @@
 
     (6) Accurate background subtraction , person bounding boxe
 
-- MPJPE(mean  per joint position errors) evaluation metric
+  + MPJPE(mean  per joint position errors) evaluation metric
 
 - [MPI-INF-3DPH](http://gvv.mpi-inf.mpg.de/3dhp-dataset/), 2014
 
   (1) includes both indoor and outdoor scenes, contains 2929 frames from 6 subjects performing 7 actions. 
+
+- [HumanEva](http://humaneva.is.tue.mpg.de/)
+
+- [Unite The People](http://files.is.tuebingen.mpg.de/classner/up/)
 
 
 
@@ -75,13 +79,12 @@
     d_i是真值与预测值之间的欧氏距离，v_i是真值的可见度标志，将d_i通过标准方差为sk_i的高斯分\\布，s是物体比例系数，定义为目标分割区域的平方根，k_i是控制衰减的每个关键点常数。每个关\\键点产生一个介于0-1之间的关键点相似度，相似度是所有标注过的关键点的平均值(v_i>0的\\关键点)，未标记的(v_i=0)的预测不会影响OKS。完美的预测OKS=1,所有关键点预测偏离\\多个方差sk_i将会具有OKS约等于0，有了OKS，可以计算AP和AR。
     $$
     
-
-  + Average Precision (AP)
-
-    ![evaluation metric](images/COCO_metric.png)
-
-    
-
++ Average Precision (AP)
+  
+  ![evaluation metric](images/COCO_metric.png)
+  
+  
+  
 - [Ai-Challenger](https://challenger.ai/dataset/keypoint)
 
   (1) training set, evaluation set, test A, test B: 210,000 images, 30,000 images, 30,000 images, 30,000 images.
@@ -100,3 +103,8 @@
 
   (5) [提供人体关键点标注工具](http://dreamdragon.github.io/vatic/)
 
+- [LSP](http://sam.johnson.io/research/lsp.html)
+
+- [FLIC](https://bensapp.github.io/flic-dataset.html)
+
+- [FLIC-plus](https://jonathantompson.github.io/)
