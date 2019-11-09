@@ -1,6 +1,6 @@
-## Human Pose Estimation
+## Human Pose
 
-**Datasets and Evaluation metric**, [read more](human-pose-estimation/Datasets_Evaluation.md)
+**Datasets and Evaluation metric**, [read more](common/Datasets_Evaluation.md)
 
 ### 2D human pose estimation
 
@@ -22,13 +22,13 @@
 ### 3D human pose estimation
 
 - 3D human pose estimation in video with temporal convolutions and semi-supervised training (**VideoPose3D**),  CVPR2019,  [paper](http://arxiv.org/abs/1811.11742), [code](https://github.com/facebookresearch/VideoPose3D) ,  *2019-08-07*
-- Fast and Robust Multi-Person 3D Pose Estimation from Multiple Views (**mvpose**),  CVPR2019,  [paper](http://arxiv.org/abs/1901.04111), [code](https://github.com/zju3dv/mvpose), [read more](human-pose-estimation/Multi_View_ZJUCAD.md),  *2019-08-28*
+- Fast and Robust Multi-Person 3D Pose Estimation from Multiple Views (**mvpose**),  CVPR2019,  [paper](http://arxiv.org/abs/1901.04111), [code](https://github.com/zju3dv/mvpose), [read more](pose-estimation/Multi_View_ZJUCAD.md),  *2019-08-28*
 - Self-Supervised Learning of 3D Human Pose using Multi-view Geometry(**EpipolarPose**),  CVPR2019,  [paper](http://arxiv.org/abs/1903.02330), [code](https://github.com/mkocabas/EpipolarPose),  *2019-09-04*
-- Cross View Fusion for 3D Human Pose Estimation, ICCV2019,   [paper](http://arxiv.org/abs/1909.01203),  [read more](human-pose-estimation/Cross_View_Fusion.md), *2019-10-22*
+- Cross View Fusion for 3D Human Pose Estimation, ICCV2019,   [paper](http://arxiv.org/abs/1909.01203),  [read more](pose-estimation/Cross_View_Fusion.md), *2019-10-22*
 - Weakly-Supervised Discovery of Geometry-Aware Representation for 3D Human Pose Estimation,  CVPR2019,  [paper](http://arxiv.org/abs/1903.08839),  *2019-10-23*
-- Monocular 3D Human Pose Estimation by Generation and Ordinal Ranking, ICCV2019,  [paper](http://arxiv.org/abs/1904.01324), [code](https://github.com/ssfootball04/generative_pose),  [read more](3D/Monocular_3D_Generation_Ordinal_Ranking.md) , *2019-10-25
-- Camera Distance-aware Top-down Approach for 3D Multi-person Pose Estimation from a Single RGB Image, ICCV2019,  [paper](http://arxiv.org/abs/1907.11346), [code](https://github.com/mks0601/3DMPPE_ROOTNET_RELEASE), [read more](human-pose-estimation/Distance-aware_Top-down.md),  *2019-11-03*
-- Generalizing Monocular 3D Human Pose Estimation in the Wild, 2019,  [paper](http://arxiv.org/abs/1904.05512), [code](https://github.com/llcshappy/Monocular-3D-Human-Pose), [read more](human-pose-estimation/Monocular_3D_Wild.md),  *2019-11-04*
+- Monocular 3D Human Pose Estimation by Generation and Ordinal Ranking, ICCV2019,  [paper](http://arxiv.org/abs/1904.01324), [code](https://github.com/ssfootball04/generative_pose),  [read more](pose-estimation/Monocular_3D_Generation_Ordinal_Ranking.md) , *2019-10-25
+- Camera Distance-aware Top-down Approach for 3D Multi-person Pose Estimation from a Single RGB Image, ICCV2019,  [paper](http://arxiv.org/abs/1907.11346), [code](https://github.com/mks0601/3DMPPE_ROOTNET_RELEASE), [read more](pose-estimation/Distance-aware_Top-down.md),  *2019-11-03*
+- Generalizing Monocular 3D Human Pose Estimation in the Wild, 2019,  [paper](http://arxiv.org/abs/1904.05512), [code](https://github.com/llcshappy/Monocular-3D-Human-Pose), [read more](pose-estimation/Monocular_3D_Wild.md),  *2019-11-04*
 
 
 
@@ -62,15 +62,16 @@
 
 ### human pose track
 
-- **LightTrack**: A Generic Framework for Online Top-Down Human Pose Tracking,  CVPR2019,  [paper](https://github.com/Guanghan/lighttrack),  [code](https://github.com/Guanghan/lighttrack)  [read more](human-pose-estimation/LightTrack.md), *2019-11-06*
+- **LightTrack**: A Generic Framework for Online Top-Down Human Pose Tracking,  CVPR2019,  [paper](https://github.com/Guanghan/lighttrack),  [code](https://github.com/Guanghan/lighttrack)  [read more](pose-track/LightTrack.md), *2019-11-06*
 
 
 
 
 
-### graph model
+### action recognition
 
-- Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action (**ST-GCN**), AAAI2018.  [paper](https://arxiv.org/abs/1801.07455v2) ,  [code](https://github.com/yysijie/st-gcn),  *2019-03-20*
+- Spatial Temporal Graph Convolutional Networks for Skeleton-Based Action Recognition (**ST-GCN**), AAAI2018.  [paper](https://arxiv.org/abs/1801.07455v2) ,  [code](https://github.com/yysijie/st-gcn),  *2019-03-20*
+- Make Skeleton-based Action Recognition Model, 2019.  [paper](https://arxiv.org/pdf/1907.09658v5.pdf),  [code](https://github.com/fandulu/DD-Net)
 
 
 
